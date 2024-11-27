@@ -1,4 +1,4 @@
-# WEATHER FORECASTING WEB APP
+# WEATHER FORECASTING WEB APP.
 ## TITLE
 > <img width=200px  src="logo.png" align="right"/>
 Development of a Weather Forecasting App Using Modern Web Technologies
