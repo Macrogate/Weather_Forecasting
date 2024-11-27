@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #100202;
+    background: linear-gradient(to right,
+            #000000, #000000);
+    width: 99vw;
+    height: 99vh;
+    scroll-behavior: smooth;
+    color: white;
+    overflow: hidden;
+}
+
+
+.hov:hover {
+    cursor: pointer;
+    box-shadow: 0 0 16px 10px #65a6e7,
+        0 0 16px 10px #67a2d5,
+        0 0 16px 10px #62a8ea;
+    transition: all 0.4s linear;
+}
+
+.btn {
+    position: relative;
+    top: 4px;
+}
+
+.hovtext {
+    font-size: 35px;
+    font-weight: 500;
+    background: linear-gradient(90deg, #ff6f61, #67a2d5, #d64dff, #62a8ea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 500;
+    cursor: default;
+    padding: 10px;
+    gap: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.same {
+    background: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(2px);
+}
+
+.pos {
+    position: relative;
+    top: 12px;
+    right: 96px
+}
+
+
+.app-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #2a2a2a;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.weather-info {
+    margin: 20px 0;
+}
+
+.sun-container {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.sunrise-sunset-times {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.recharts-tooltip-wrapper {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #FFD700;
+}
+
+.col {
+    color: black;
+    font-weight: 500;
+    text-shadow: 1px 1px 18px yellow;
+}
+
+.round {
+    border-radius: 15px;
+}
+
+.shad {
+    filter: drop-shadow(0 0 16px rgb(98, 168, 173));
+}
+
+.wshad {
+    text-shadow: 1px 1px 10px whitesmoke;
+}
+
+.transparent-gif {
+    mix-blend-mode: hard-light;
+    /* Other options: screen, overlay color-doge */
+}
+
+
+.helo {
+    background: linear-gradient(115deg, #070707, #4c4747);
+    filter: blur(0.1px) contrast(100px);
+    filter: brightness(300%);
+    filter: blur(0.1px) contrast(100px);
+    /* filter: blur(5px) contrast(150%); */
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
+    /* filter: hue-rotate(90deg); */
+    /* filter: invert(10%); */
+    /* filter: sepia(60%); */
+    /* filter: grayscale(100%); */
+    backdrop-filter: blur(404px);
+
+}
+
+
