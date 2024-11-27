@@ -15,7 +15,7 @@
 //             const response = await fetch(apiURL + city + `&appid=${apiKey}`);
 //             const data = await response.json();
 //             setWeatherInfo((prev) => ({
-//                 ...prev,
+//                 ...prev, kya
 //                 [city]: data || {} // Store the full data for the city
 //             }));
 //             console.log(weatherInfo);
